@@ -118,18 +118,91 @@ body {
     margin: 0 auto;
 }
 
+.topHalf {
+    background: cyan;
+    padding-bottom: 3em;
+}
 
 
+.feature {
+    position: relative;
+}
+
+.feature img {
+    width:100%;    
+}
+
+.feature h2 {
+    position:absolute;
+    top:30%;
+    background:rgba(0,0,0,0.5);
+    padding:0.5em;
+    font-size:2.8em;
+    color:#fff;
+    width:150px;
+}    
 
 
+/*CONTENT AREA*/
 
+.middle {
+    background: #F5F5F5;
+    padding-bottom: 2em;
+}
+.main {
+    position: relative;
+    padding-top:2em;
+}
+.main h3 {
+    position: absolute;
+    top: -30px;
+    margin: 0;
+    font-size: 2.2em;
+    background: #fff;
+    padding: 0.5em;
+    line-height: 1;
+    }
 
+.main p{
+    margin: 0;
+    font-size: 1.4em;
+    line-height: 1.3;
+}
 
+/*SIDEBAR*/
 
+aside h4 {
+    color: white;
+    background: orange;
+    padding: 0.5em;
+    margin: 1em 0 0;
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1;
+}
 
+aside ol {
+    margin: 0;
+    padding: 1em 2em;
+    border: 1px solid orange;
+    border-top: 0;
+}
+aside ol li {
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 1.4em;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 0.5em 0; 
+}
 
-
-
+.sidebar ol li span {
+    display: block;
+    font-size: 0.8em;
+    color: #444;
+    font-weight: 400;
+    padding-left: 1.1em;
+}
 
 
 /* ==========================================================================
